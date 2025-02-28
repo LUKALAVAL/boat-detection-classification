@@ -1,0 +1,5 @@
+plaisance
+peche
+commerce
+autre
+regroupement
