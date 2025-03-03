@@ -14,7 +14,7 @@ files.remove('classes.txt')
 
 # Create the CSV file and write the header
 with open(output_csv, 'w') as file:
-    file.write("class_id,yolo_x,yolo_y,yolo_w,yolo_h,latitude,longitude,filename,mmsi,confidence\n")
+    file.write("class_id,yolo_x,yolo_y,yolo_w,yolo_h,latitude,longitude,filename\n")
 
 # Process each image
 for f in files:
@@ -28,6 +28,6 @@ for f in files:
     # Append the new annotations to the CSV file
     with open(output_csv, 'a') as file:
         for annotation in new_annotations:
-            file.write(','.join(map(str, annotation)) + f",{f},,\n")
+            file.write(','.join(map(str, annotation)) + f",{f}\n")
 
     print(f"{f} processed.")

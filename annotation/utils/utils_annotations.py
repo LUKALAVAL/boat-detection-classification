@@ -53,8 +53,8 @@ def convert_annotation(annotation_path, aux_xml_path, tile_size=512):
             class_id = int(class_id)
 
             # Calculate the center of the bounding box
-            center_x = (yolo_x + yolo_w / 2) * tile_size
-            center_y = (yolo_y + yolo_h / 2) * tile_size
+            center_x = yolo_x * tile_size
+            center_y = yolo_y * tile_size
             
             # Convert pixel coordinates to geographic
             x_geo, y_geo = pixel_to_geo_transform(geo_transform, center_x, center_y)
