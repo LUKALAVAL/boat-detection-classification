@@ -1,6 +1,6 @@
 # boat-detection
 
-# The project is currently on hold
+## !! The project is currently on hold !!
 
 #### workflow
 1. Retrieve satellite images from PlanetScope
