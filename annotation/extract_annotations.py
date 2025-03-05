@@ -14,7 +14,7 @@ files.remove('classes.txt')
 
 # Create the CSV file and write the header
 with open(output_csv, 'w') as file:
-    file.write("class_id,yolo_x,yolo_y,yolo_w,yolo_h,latitude,longitude,filename\n")
+    file.write("class_id,yolo_x,yolo_y,yolo_w,yolo_h,latitude,longitude,timestamp,filename\n")
 
 # Process each image
 for f in files:

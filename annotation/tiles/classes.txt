@@ -1,5 +1,8 @@
-plaisance
-peche
-commerce
-autre
+plaisance statique
+plaisance dynamique
+peche statique
+peche dynamique
+commerce statique
+commerce dynamique
 regroupement
+autre

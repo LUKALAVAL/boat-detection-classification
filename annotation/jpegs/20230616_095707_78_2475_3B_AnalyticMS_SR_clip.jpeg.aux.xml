@@ -17,6 +17,14 @@
     <Metadata domain="IMAGE_STRUCTURE">
       <MDI key="COMPRESSION">JPEG</MDI>
     </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">12.472757700988</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">17.768798079771</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
   </PAMRasterBand>
   <PAMRasterBand band="2">
     <Description>green</Description>
@@ -24,12 +32,28 @@
     <Metadata domain="IMAGE_STRUCTURE">
       <MDI key="COMPRESSION">JPEG</MDI>
     </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">12.472288167883</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">17.623219627998</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
   </PAMRasterBand>
   <PAMRasterBand band="3">
     <Description>blue</Description>
     <NoDataValue>0.00000000000000E+00</NoDataValue>
     <Metadata domain="IMAGE_STRUCTURE">
       <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">13.856141153023</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">17.143158673119</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
     </Metadata>
   </PAMRasterBand>
 </PAMDataset>

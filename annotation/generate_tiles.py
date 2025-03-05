@@ -1,16 +1,16 @@
 from utils.utils_tiles import *
 
 # Percentiles for color channel scaling
-min_percentile = 5
-max_percentile = 95
+min_percentile = 2
+max_percentile = 98
 
 # Tile size
 tile_size = 512
 
 # Input and output folders
-input_folder = "PSScene"
-output_folder_jpegs = "jpegs"
-output_folder_tiles = "tiles"
+input_folder = "PlanetScope/data/"
+output_folder_jpegs = "annotation/jpegs/"
+output_folder_tiles = "annotation/tiles/"
 
 # Create output folders if don't exist
 if not os.path.exists(output_folder_jpegs):
