@@ -1,5 +1,7 @@
 # boat-detection
 
+# The project is currently on hold
+
 #### workflow
 1. Retrieve satellite images from PlanetScope
 2. Run `generate_tiles.py` (creates `jpegs/` and `tiles/`)
