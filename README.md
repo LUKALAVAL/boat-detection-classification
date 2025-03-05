@@ -1,4 +1,4 @@
-# boat-detection
+# boat-detection-classification
 
 ## !! The project is currently on hold !!
 
